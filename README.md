@@ -1,5 +1,9 @@
 # OPENGL/GLFW Notes/Guide
 
+## *Compilation Instructions*
+`` g++ main.cpp -o opengl_app -lglfw -lGL -lGLEW -lX11 -lpthread -ldl
+``
+
 ## Table of Contents
 1. Window Setup
 
@@ -57,7 +61,4 @@ glfwPollEvents() ->	Processes input events
 ```
 
 `` glfwTerminate() ->	Releases all GLFW resources
-``
-## *Compilation Instructions*
-`` g++ main.cpp -o opengl_app -lglfw -lGL -lX11 -lpthread -ldl
 ``
